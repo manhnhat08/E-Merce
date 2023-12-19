@@ -82,7 +82,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.aptech</groupId>
+			<groupId>com.javamvc</groupId>
 			<artifactId>E-Common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>

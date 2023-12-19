@@ -63,7 +63,9 @@ public class SettingFilter implements Filter {
 			
 		});
 		
-		request.setAttribute("S3_BASE_URI", Constants.S3_BASE_URI);
+//		request.setAttribute("S3_BASE_URI", Constants.S3_BASE_URI);
+		request.setAttribute("DRIVE_BASE_URI", Constants.DRIVE_BASE_URI);
+		System.out.print(Constants.DRIVE_BASE_URI);
 	}
 
 }
