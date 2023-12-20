@@ -59,8 +59,7 @@ public class SecurityConfiguration {
 				.key("1234567890_aBcDeFgHiJkLmNoPqRsTuVwXyZ")
 				.tokenValiditySeconds(14 * 24 * 60 * 60)
 			.and()
-				.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.ALWAYS)
-			;	
+				.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.ALWAYS);
 		http.headers().frameOptions().sameOrigin();
 		return http.build();
 	}
